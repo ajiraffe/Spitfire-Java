@@ -1,0 +1,6 @@
+MIDlet-Name: FRC2013-Team4166
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: FIRST
+MIDlet-1: FRC2013, ,  com.team3459.frc2013.FRC2013
+MicroEdition-Profile: IMP-1.0
+MicroEdition-Configuration: CLDC-1.1
