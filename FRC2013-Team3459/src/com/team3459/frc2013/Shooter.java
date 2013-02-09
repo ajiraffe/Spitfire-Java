@@ -10,6 +10,10 @@ package com.team3459.frc2013;
  */
 public class Shooter {
     
+    public Shooter(int slot){
+        Victor shooter_motor = new Victor(slot);
+    }
+    
     //Ramps motor speed from current to requested to avoid hurting the motor
     public static double rampMotor(double req, double cur){
         double output=0;
