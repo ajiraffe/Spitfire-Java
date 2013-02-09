@@ -49,6 +49,9 @@ public class FRC2013 extends SimpleRobot {
     Solenoid bridgein = new Solenoid(2);
     
     //DIGITAL IO
+    //DigitalInput limitSwitch = new DigitalInput(1);
+    
+    //Joystick
     Joystick leftStick = new Joystick(1);                                       //Left drive Joystick
     Joystick rightStick = new Joystick(2);                                      //Right drive Joystick
     Joystick Actionjoy = new Joystick(3);                                       //Shooters Joystick
@@ -58,7 +61,7 @@ public class FRC2013 extends SimpleRobot {
     JoystickButton Conveyorrev = new JoystickButton(Actionjoy, 11);             //Conveyor reverse button
     JoystickButton bananabutton = new JoystickButton(Actionjoy, 1);             //<---- self explanatory
     JoystickButton bridge = new JoystickButton(Actionjoy, 8);
-    //DigitalInput limitSwitch = new DigitalInput(1);
+    
     
     public void autonomous() {
         if (true && isAutonomous() && isEnabled()) {
