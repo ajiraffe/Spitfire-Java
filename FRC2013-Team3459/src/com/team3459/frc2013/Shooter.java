@@ -10,4 +10,16 @@ package com.team3459.frc2013;
  */
 public class Shooter {
     
+    public static double rampMotor(double req, double cur){
+        double output=0;
+        double error=req-cur;
+        if (error<=0.1){
+            output=req;
+        }
+        else{
+            output+=cur+(0.1)*(req-cur);
+        }
+        return output;
+    }
+    
 }
