@@ -10,6 +10,7 @@ package com.team3459.frc2013;
  */
 public class Shooter {
     
+    //Ramps motor speed from current to requested to avoid hurting the motor
     public static double rampMotor(double req, double cur){
         double output=0;
         double error=req-cur;
